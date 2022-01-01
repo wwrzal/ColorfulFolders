@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: affe4e518ec25434191a7ebbf063b611, type: 3}
   m_Name: ExampleConfig
   m_EditorClassIdentifier: 
-  Data: []
+  Data:
+  - Path: Packages/com.wwrzal.colorfulfolders/Editor
+    Color: {r: 1, g: 0.061994612, b: 0.963585, a: 0.29803923}
