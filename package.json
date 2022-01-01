@@ -1,0 +1,12 @@
+{
+    "name" : "com.wwrzal.colorfulfolders",
+    "version" : "0.0.1",
+    "description" : "Very simple utility to set custom colors for Project window folders",
+    "displayName" : "Colorful Folders",
+    "unity" : "2022.1",
+    "author" :
+    {
+        "name" : "wwrzal",
+        "email" : "wwrzal@gmail.com"
+    }
+}
