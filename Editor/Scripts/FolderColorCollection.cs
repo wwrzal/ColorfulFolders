@@ -1,15 +1,17 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "ColorfulFolders/FolderColorCollection", fileName = "FolderColorCollectoin")]
-class FolderColorCollection : ScriptableObject
+namespace wwrzal.ColorfulFolders
 {
-    public List<FolderColor> Data;
-
-    private void OnValidate()
+    [CreateAssetMenu(menuName = "ColorfulFolders/FolderColorCollection", fileName = "FolderColorCollection")]
+    class FolderColorCollection : ScriptableObject
     {
-        // Reload settings so that changes are visible in the editor immediately.
-        ColorfulFolders.LoadSettings();
+        public List<FolderColor> Data;
+
+        private void OnValidate()
+        {
+            // Reload settings so that changes are visible in the editor immediately.
+            ColorfulFolders.LoadSettings();
+        }
     }
 }

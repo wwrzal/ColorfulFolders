@@ -1,9 +1,12 @@
 using System;
 using UnityEngine;
 
-[Serializable]
-class FolderColor
+namespace wwrzal.ColorfulFolders
 {
-    public string Path;
-    public Color Color; 
+    [Serializable]
+    class FolderColor
+    {
+        public string Path;
+        public Color Color;
+    }
 }
