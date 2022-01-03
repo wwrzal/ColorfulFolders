@@ -1,6 +1,13 @@
 # ColorfulFolders
 ColorfulFolders is a very simple Unity utility to set custom colors for Project window folders.
 
+## Installation
+
+ColorfulFolder can be added to a project via Package manager.
+
+Download to disk and use "Add package from disk..." and navigate to downloaded project "package.json" file.
+
+Or use "Add package from git URL..." and enter https://github.com/wwrzal/ColorfulFolders.git.
 ## Usage
 
 Crate scriptable objects of type FolderColorCollection (RMB > Create > ColorfulFolders > FolderColorCollection).
