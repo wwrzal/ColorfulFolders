@@ -3,7 +3,7 @@ ColorfulFolders is a very simple Unity utility to set custom colors for Project 
 
 ## Installation
 
-ColorfulFolder can be added to a project via Package manager.
+ColorfulFolder can be added to a project via Package Manager.
 
 Download to disk and use "Add package from disk..." and navigate to downloaded project "package.json" file.
 
